@@ -21,6 +21,13 @@ class Animal {
         return $this->cold_blooded;
     }
 
+    public function set_legs($legs) {
+        $this->legs = $legs;
+    }
+
+    public function set_cold_blooded($cold_blooded) {
+        $this->cold_blooded = $cold_blooded;
+    }
 }
 
 
